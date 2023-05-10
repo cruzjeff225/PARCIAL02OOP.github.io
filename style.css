@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;padding:0;
+    box-sizing: border-box;
+    outline:none; border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+.container{
+    max-width: 600px;
+    margin: 5 auto;
+}
+
+.container form{
+    padding: 20px;
+    width: 700px;
+    background: #ffff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+#ticket-cost{
+    text-align: center;
+    font-size: 15px;
+}
+body{
+    background: #161815;
+}
+.section-padding{
+    padding: 70px 0;
+}
+
+.carousel-caption{
+    bottom:200px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size:45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin:auto;
+    font-size:18px;
+    line-height: 1.9;
+}
+.carousel-inner::before{
+    content:'';
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background: rgba(0,30,82,0.327);
+    z-index: 1;
+}
